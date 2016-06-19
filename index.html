@@ -36,6 +36,15 @@ ul#menu li a {
 ul#menu li a:hover {
 	background-color: orange;
 }
+.cities {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+}
+.country {
+	color: red;
+}
 		</style>
 	</head>
 	<body style="background-color:#FCFBE3">
@@ -202,9 +211,17 @@ console.log(firstNumber + secondNumber);
 			<dd>A white liquid</dd>
 		</dl>
 		<h3>On to Divs and Spans</h3>
-		<div style="background-color: black; color: white; padding: 10px">
+		<div class="cities">
 			<h4>London</h4>
-			<p>London is the capital city of <span style="color: red">England</span>
+			<p>London is the capital city of <span class="country">England</span>
+		</div>
+		<div class="cities">
+			<h4>Paris</h4>
+			<p>Paris is the capital city of <span class="country">France</span>
+		</div>
+		<div class="cities">
+			<h4>Tokyo</h4>
+			<p>Tokyo is the capital city of <span class="country">Japan</span>
 		</div>
 	</body>
 </html>
