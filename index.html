@@ -10,6 +10,20 @@ h3 {
 pre {
 	border: 1px solid black
 }
+td, th {
+	text-align: left;
+	padding: 15px;
+}
+caption {
+	padding: 15px
+}
+table, td, th, caption {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table {
+	text-align: center;
+}
 		</style>
 	</head>
 	<body style="background-color:#FCFBE3">
@@ -84,6 +98,70 @@ var secondNumber = 54;
 console.log(firstNumber + secondNumber);
 </code>
 		</pre>
+		<h3>On To Tables</h3>
+		<table>
+			<caption>2015/2016 English Premiere League Table</caption>
+			<tr>
+				<th>Position</th>
+				<th>Club</th>
+				<th>Played</th>
+				<th>Won</th>
+				<th>Drawn</th>
+				<th>Lost</th>
+				<th>Goals For</th>
+				<th>Goals Against</th>
+				<th>Goal Difference</th>
+				<th>Points</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Leicester City</td>
+				<td>38</td>
+				<td>23</td>
+				<td>12</td>
+				<td>3</td>
+				<td>68</td>
+				<td>36</td>
+				<td>32</td>
+				<th>81</th>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Arsenal</td>
+				<td>38</td>
+				<td>20</td>
+				<td>11</td>
+				<td>7</td>
+				<td>65</td>
+				<td>36</td>
+				<td>29</td>
+				<th>71</th>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Tottenham Hotspur</td>
+				<td>38</td>
+				<td>19</td>
+				<td>13</td>
+				<td>6</td>
+				<td>69</td>
+				<td>35</td>
+				<td>34</td>
+				<th>70</th>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>Manchester City</td>
+				<td>38</td>
+				<td>19</td>
+				<td>9</td>
+				<td>10</td>
+				<td>71</td>
+				<td>41</td>
+				<td>30</td>
+				<th>66</th>
+			</tr>
+		</table>
 	</body>
 </html>
 
